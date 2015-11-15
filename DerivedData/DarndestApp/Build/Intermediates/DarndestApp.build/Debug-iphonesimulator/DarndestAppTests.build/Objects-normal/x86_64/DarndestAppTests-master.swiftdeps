@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "03d39595d804767f1e0b9d6aeaea6535"
+build_time: [500917268, 267535000]
+inputs:
+  "/Users/jqhsq/Documents/iOSProjects/DarndestApp/DarndestAppTests/DarndestAppTests.swift": [492222281, 0]

@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "f3db4bd0cc2e1e7dbd5d0059228fe0f7"
+build_time: [500917263, 350258000]
+inputs:
+  "/Users/jqhsq/Documents/iOSProjects/DarndestApp/DarndestApp/AppDelegate.swift": [498682168, 0]
+  "/Users/jqhsq/Documents/iOSProjects/DarndestApp/DarndestApp/Kid.swift": [498682743, 0]
+  "/Users/jqhsq/Documents/iOSProjects/DarndestApp/DarndestApp/MainVC.swift": [500589467, 0]
+  "/Users/jqhsq/Documents/iOSProjects/DarndestApp/DarndestApp/CustomCell.swift": [494780778, 0]
+  "/Users/jqhsq/Documents/iOSProjects/DarndestApp/DarndestApp/AddEditKidVC.swift": [499635711, 0]
+  "/Users/jqhsq/Documents/iOSProjects/DarndestApp/KidsTableVC.swift": [500588849, 0]

@@ -1,0 +1,1 @@
+ const unsigned char DarndestAppTestsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:DarndestAppTests  PROJECT:DarndestApp-" "\n"; const double DarndestAppTestsVersionNumber __attribute__ ((used)) = (double)0.;

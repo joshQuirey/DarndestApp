@@ -1,0 +1,191 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CustomCell"
+provides-nominal:
+- "C11DarndestApp10CustomCell"
+provides-member:
+- ["C11DarndestApp10CustomCell", ""]
+provides-dynamic-lookup:
+- "birthday"
+- "buttonView"
+- "name"
+- "profilePicture"
+depends-top-level:
+- "UIView"
+- "UILabel"
+- "UIImageView"
+- "UITableViewCell"
+- "CustomCell"
+depends-member:
+- ["PSs9AnyObject", "birthday"]
+- ["PSs9AnyObject", "buttonView"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "name"]
+- ["PSs9AnyObject", "profilePicture"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "birthday"]
+- ["PSs11CVarArgType", "buttonView"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "name"]
+- ["PSs11CVarArgType", "profilePicture"]
+- ["PSs11CVarArgType", ""]
+- ["C11DarndestApp10CustomCell", "UIImageView"]
+- ["C11DarndestApp10CustomCell", "UILabel"]
+- ["C11DarndestApp10CustomCell", "UIView"]
+- ["C11DarndestApp10CustomCell", "birthday"]
+- ["C11DarndestApp10CustomCell", "buttonView"]
+- ["C11DarndestApp10CustomCell", "deinit"]
+- ["C11DarndestApp10CustomCell", "init"]
+- ["C11DarndestApp10CustomCell", "name"]
+- ["C11DarndestApp10CustomCell", "profilePicture"]
+- ["PSs23CustomStringConvertible", "birthday"]
+- ["PSs23CustomStringConvertible", "buttonView"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "name"]
+- ["PSs23CustomStringConvertible", "profilePicture"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "birthday"]
+- ["PSs9Equatable", "buttonView"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "name"]
+- ["PSs9Equatable", "profilePicture"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "birthday"]
+- ["PSs8Hashable", "buttonView"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "name"]
+- ["PSs8Hashable", "profilePicture"]
+- ["PSs8Hashable", ""]
+- ["PSo8NSCoding", "birthday"]
+- ["PSo8NSCoding", "buttonView"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "name"]
+- ["PSo8NSCoding", "profilePicture"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "birthday"]
+- ["CSo8NSObject", "buttonView"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "profilePicture"]
+- ["PSo16NSObjectProtocol", "birthday"]
+- ["PSo16NSObjectProtocol", "buttonView"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "profilePicture"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "birthday"]
+- ["PSo29UIAccessibilityIdentification", "buttonView"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "name"]
+- ["PSo29UIAccessibilityIdentification", "profilePicture"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "birthday"]
+- ["PSo12UIAppearance", "buttonView"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "name"]
+- ["PSo12UIAppearance", "profilePicture"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "birthday"]
+- ["PSo21UIAppearanceContainer", "buttonView"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "name"]
+- ["PSo21UIAppearanceContainer", "profilePicture"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "birthday"]
+- ["PSo17UICoordinateSpace", "buttonView"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "name"]
+- ["PSo17UICoordinateSpace", "profilePicture"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "birthday"]
+- ["PSo13UIDynamicItem", "buttonView"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "name"]
+- ["PSo13UIDynamicItem", "profilePicture"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "birthday"]
+- ["PSo18UIFocusEnvironment", "buttonView"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "name"]
+- ["PSo18UIFocusEnvironment", "profilePicture"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "birthday"]
+- ["PSo27UIGestureRecognizerDelegate", "buttonView"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "name"]
+- ["PSo27UIGestureRecognizerDelegate", "profilePicture"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "birthday"]
+- ["CSo11UIResponder", "buttonView"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "name"]
+- ["CSo11UIResponder", "profilePicture"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UIView"]
+- ["CSo15UITableViewCell", "birthday"]
+- ["CSo15UITableViewCell", "buttonView"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "name"]
+- ["CSo15UITableViewCell", "profilePicture"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "birthday"]
+- ["PSo18UITraitEnvironment", "buttonView"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "name"]
+- ["PSo18UITraitEnvironment", "profilePicture"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UIView"]
+- ["CSo6UIView", "birthday"]
+- ["CSo6UIView", "buttonView"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "name"]
+- ["CSo6UIView", "profilePicture"]
+- ["PSs12_Reflectable", "birthday"]
+- ["PSs12_Reflectable", "buttonView"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "name"]
+- ["PSs12_Reflectable", "profilePicture"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "C11DarndestApp10CustomCell"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "59e71b262d213303d17d39ff051f31f6"

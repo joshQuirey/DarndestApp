@@ -27,7 +27,9 @@ class AddEditKidVC: UIViewController, UIImagePickerControllerDelegate, UINavigat
         
         picker.delegate = self
         let dateFormatter = NSDateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd"
+        
+        dateFormatter.dateStyle = NSDateFormatterStyle.LongStyle
+        //dateFormatter.dateFormat = "yyyy-MM-dd"
         
         if nKid != nil {
             name.text = nKid?.name
@@ -81,7 +83,9 @@ class AddEditKidVC: UIViewController, UIImagePickerControllerDelegate, UINavigat
         let ent = NSEntityDescription.entityForName("Kid", inManagedObjectContext: context!)
         let nKid = Kid(entity: ent!, insertIntoManagedObjectContext: context)
         let dateFormatter = NSDateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd"
+        dateFormatter.dateStyle = NSDateFormatterStyle.LongStyle
+        //dateFormatter
+        //dateFormatter.dateFormat = "yyyy-dd-MM"
         
         nKid.name = name.text!.capitalizedString
         nKid.birthday = dateFormatter.dateFromString(birthday.text!)!
@@ -96,7 +100,8 @@ class AddEditKidVC: UIViewController, UIImagePickerControllerDelegate, UINavigat
     
     func editKid() {
         let dateFormatter = NSDateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd"
+        //dateFormatter.dateFormat = "yyyy-MM-dd"
+        dateFormatter.dateStyle = NSDateFormatterStyle.LongStyle
         
         nKid!.name = name.text!
         nKid!.birthday = dateFormatter.dateFromString(birthday.text!)!
@@ -125,10 +130,11 @@ class AddEditKidVC: UIViewController, UIImagePickerControllerDelegate, UINavigat
     
     
     func datePickerValueChanged(sender: UIDatePicker) {
-        let dateformatter = NSDateFormatter()
-        dateformatter.dateFormat = "yyyy-MM-dd"
+        let dateFormatter = NSDateFormatter()
+        //dateformatter.dateFormat = "yyyy-MM-dd"
+        dateFormatter.dateStyle = NSDateFormatterStyle.LongStyle
         //dateformatter.dateStyle = NSDateFormatterStyle.MediumStyle
-        birthday.text = dateformatter.stringFromDate(sender.date)
+        birthday.text = dateFormatter.stringFromDate(sender.date)
     }
     
     

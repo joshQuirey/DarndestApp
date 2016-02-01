@@ -49,6 +49,7 @@
 		1F5B834D1B9297FB00286BB2 /* DarndestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DarndestApp.entitlements; sourceTree = "<group>"; };
 		1FABD29E1B938D4300BC002A /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		1FABD2A01B93927900BC002A /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		1FC61EA11C0156D8008E4982 /* DarndestApp 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DarndestApp 2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -486,6 +487,7 @@
 		1F4EE04D1B7432490064A29C /* DarndestApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				1FC61EA11C0156D8008E4982 /* DarndestApp 2.xcdatamodel */,
 				1F4EE04E1B7432490064A29C /* DarndestApp.xcdatamodel */,
 			);
 			currentVersion = 1F4EE04E1B7432490064A29C /* DarndestApp.xcdatamodel */;

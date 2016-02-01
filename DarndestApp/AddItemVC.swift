@@ -12,7 +12,17 @@ class AddItemVC: UIViewController {
     
     
     
-
+    @IBOutlet weak var journalContainer: UIView!
+    @IBOutlet weak var journalText: UITextView!
+    @IBOutlet weak var journalPhoto: UIButton!
+    @IBOutlet weak var journalFavorite: UIButton!
+    @IBOutlet weak var journalLocation: UIButton!
+    @IBOutlet weak var journalDate: UIButton!
+    @IBOutlet weak var addJournal: UIButton!
+    @IBOutlet weak var addConversation: UIButton!
+    @IBOutlet weak var addJournalLabel: UILabel!
+    @IBOutlet weak var addConversationLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,12 +31,40 @@ class AddItemVC: UIViewController {
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         blurEffectView.frame = view.bounds
         view.addSubview(blurEffectView)
+        
+        //initial setup
+        journalContainer.hidden = true
+        journalText.hidden = true
+        journalPhoto.hidden = true
+        journalFavorite.hidden = true
+        journalLocation.hidden = true
+        journalDate.hidden = true
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func addJournal(sender: AnyObject) {
+        journalContainer.hidden = false
+        journalText.hidden = false
+        journalPhoto.hidden = false
+        journalFavorite.hidden = false
+        journalLocation.hidden = false
+        journalDate.hidden = false
+    }
+    
+    @IBAction func addConversation(sender: AnyObject) {
+        journalContainer.hidden = true
+        journalText.hidden = true
+        journalPhoto.hidden = true
+        journalFavorite.hidden = true
+        journalLocation.hidden = true
+        journalDate.hidden = true
+    }
+    
     
     func dismissVC() {
         self.dismissViewControllerAnimated(true, completion: nil)

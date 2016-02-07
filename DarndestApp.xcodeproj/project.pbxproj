@@ -17,6 +17,7 @@
 		1F4EE06F1B7433DD0064A29C /* KidsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EE06E1B7433DD0064A29C /* KidsTableVC.swift */; };
 		1F4F085F1B854C4D008739D3 /* Kid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F085E1B854C4D008739D3 /* Kid.swift */; };
 		1F57A4F01BF8F111006CCC5B /* AddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F57A4EF1BF8F111006CCC5B /* AddItemVC.swift */; };
+		1F8867C71C66DA9200BDC595 /* ComposeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8867C61C66DA9200BDC595 /* ComposeVC.swift */; };
 		1FABD29F1B938D4300BC002A /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FABD29E1B938D4300BC002A /* CustomCell.swift */; };
 		1FABD2A11B93927900BC002A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FABD2A01B93927900BC002A /* MainVC.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		1F4F085E1B854C4D008739D3 /* Kid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kid.swift; sourceTree = "<group>"; };
 		1F57A4EF1BF8F111006CCC5B /* AddItemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemVC.swift; sourceTree = "<group>"; };
 		1F5B834D1B9297FB00286BB2 /* DarndestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DarndestApp.entitlements; sourceTree = "<group>"; };
+		1F8867C61C66DA9200BDC595 /* ComposeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeVC.swift; sourceTree = "<group>"; };
 		1FABD29E1B938D4300BC002A /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		1FABD2A01B93927900BC002A /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		1FC61EA11C0156D8008E4982 /* DarndestApp 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DarndestApp 2.xcdatamodel"; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				1F4EE06E1B7433DD0064A29C /* KidsTableVC.swift */,
 				1F4EE0501B7432490064A29C /* AddEditKidVC.swift */,
 				1F57A4EF1BF8F111006CCC5B /* AddItemVC.swift */,
+				1F8867C61C66DA9200BDC595 /* ComposeVC.swift */,
 				1F4EE0521B7432490064A29C /* Main.storyboard */,
 				1F4EE0551B7432490064A29C /* Images.xcassets */,
 				1F4EE0571B7432490064A29C /* LaunchScreen.xib */,
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8867C71C66DA9200BDC595 /* ComposeVC.swift in Sources */,
 				1F4EE06F1B7433DD0064A29C /* KidsTableVC.swift in Sources */,
 				1F4F085F1B854C4D008739D3 /* Kid.swift in Sources */,
 				1F4EE0511B7432490064A29C /* AddEditKidVC.swift in Sources */,

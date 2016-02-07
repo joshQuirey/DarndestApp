@@ -11,17 +11,17 @@ import UIKit
 class AddItemVC: UIViewController {
     
     
+    @IBOutlet weak var addChat: UIButton!
+    @IBOutlet weak var addCompose: UIButton!
     
-    @IBOutlet weak var journalContainer: UIView!
-    @IBOutlet weak var journalText: UITextView!
-    @IBOutlet weak var journalPhoto: UIButton!
-    @IBOutlet weak var journalFavorite: UIButton!
-    @IBOutlet weak var journalLocation: UIButton!
-    @IBOutlet weak var journalDate: UIButton!
-    @IBOutlet weak var addJournal: UIButton!
-    @IBOutlet weak var addConversation: UIButton!
-    @IBOutlet weak var addJournalLabel: UILabel!
-    @IBOutlet weak var addConversationLabel: UILabel!
+    //@IBOutlet weak var journalContainer: UIView!
+    //@IBOutlet weak var journalText: UITextView!
+    //@IBOutlet weak var journalPhoto: UIButton!
+    //@IBOutlet weak var journalFavorite: UIButton!
+    //@IBOutlet weak var journalLocation: UIButton!
+    //@/IBOutlet weak var journalDate: UIButton!
+    //@IBOutlet weak var addJournalLabel: UILabel!
+    //@IBOutlet weak var addConversationLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,16 +29,26 @@ class AddItemVC: UIViewController {
         // Do any additional setup after loading the view.
         let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Dark)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
+        //blurEffectView.alpha = 0.6
         blurEffectView.frame = view.bounds
         view.addSubview(blurEffectView)
         
+        //add button attributes
+        let cornerRadius : CGFloat = 5.0
+        addChat.layer.borderWidth = 1
+        addChat.layer.borderColor = UIColor(white:1.0, alpha: 1.0).CGColor
+        addChat.layer.cornerRadius = cornerRadius
+        addCompose.layer.borderWidth = 1
+        addCompose.layer.borderColor = UIColor(white: 1.0, alpha: 1.0).CGColor
+        addCompose.layer.cornerRadius = cornerRadius
+        
         //initial setup
-        journalContainer.hidden = true
-        journalText.hidden = true
-        journalPhoto.hidden = true
-        journalFavorite.hidden = true
-        journalLocation.hidden = true
-        journalDate.hidden = true
+        //journalContainer.hidden = true
+        //journalText.hidden = true
+        //journalPhoto.hidden = true
+        //journalFavorite.hidden = true
+        //journalLocation.hidden = true
+        //journalDate.hidden = true
         
     }
 
@@ -47,23 +57,23 @@ class AddItemVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func addJournal(sender: AnyObject) {
-        journalContainer.hidden = false
-        journalText.hidden = false
-        journalPhoto.hidden = false
-        journalFavorite.hidden = false
-        journalLocation.hidden = false
-        journalDate.hidden = false
-    }
+    //@IBAction func addJournal(sender: AnyObject) {
+        //journalContainer.hidden = false
+        //journalText.hidden = false
+        //journalPhoto.hidden = false
+        //journalFavorite.hidden = false
+        //journalLocation.hidden = false
+        //journalDate.hidden = false
+    //}
     
-    @IBAction func addConversation(sender: AnyObject) {
-        journalContainer.hidden = true
-        journalText.hidden = true
-        journalPhoto.hidden = true
-        journalFavorite.hidden = true
-        journalLocation.hidden = true
-        journalDate.hidden = true
-    }
+    //@IBAction func addConversation(sender: AnyObject) {
+        //journalContainer.hidden = true
+        //journalText.hidden = true
+        //journalPhoto.hidden = true
+        //journalFavorite.hidden = true
+        //journalLocation.hidden = true
+        //journalDate.hidden = true
+    //}
     
     
     func dismissVC() {

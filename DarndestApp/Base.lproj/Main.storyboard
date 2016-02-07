@@ -898,16 +898,16 @@
                                 <exclude reference="1lj-ee-eYf"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="12K-WZ-LL1"/>
+                                <exclude reference="19e-Bf-fNI"/>
+                                <exclude reference="A06-aG-LH4"/>
+                                <exclude reference="YSo-O7-fad"/>
                                 <exclude reference="nVn-VT-eiD"/>
+                                <exclude reference="12K-WZ-LL1"/>
+                                <exclude reference="a6h-nx-1L4"/>
                                 <exclude reference="3qf-dD-44o"/>
                                 <exclude reference="QRe-WH-Q0R"/>
                                 <exclude reference="XwK-d0-iNT"/>
                                 <exclude reference="epq-QI-jOC"/>
-                                <exclude reference="a6h-nx-1L4"/>
-                                <exclude reference="19e-Bf-fNI"/>
-                                <exclude reference="A06-aG-LH4"/>
-                                <exclude reference="YSo-O7-fad"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -919,16 +919,16 @@
                                 <include reference="1lj-ee-eYf"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="12K-WZ-LL1"/>
+                                <include reference="19e-Bf-fNI"/>
+                                <include reference="A06-aG-LH4"/>
+                                <include reference="YSo-O7-fad"/>
                                 <include reference="nVn-VT-eiD"/>
+                                <include reference="12K-WZ-LL1"/>
+                                <include reference="a6h-nx-1L4"/>
                                 <include reference="3qf-dD-44o"/>
                                 <include reference="QRe-WH-Q0R"/>
                                 <include reference="XwK-d0-iNT"/>
                                 <include reference="epq-QI-jOC"/>
-                                <include reference="a6h-nx-1L4"/>
-                                <include reference="19e-Bf-fNI"/>
-                                <include reference="A06-aG-LH4"/>
-                                <include reference="YSo-O7-fad"/>
                             </mask>
                         </variation>
                     </view>
@@ -1026,15 +1026,15 @@
                                     <action selector="cancelTapped:" destination="E6X-09-XU1" eventType="touchUpInside" id="vOO-HT-qXT"/>
                                 </connections>
                             </button>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KtB-Qd-eFp">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vck-JM-igB">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" selected="YES"/>
-                                </accessibility>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="35" width="400" height="426"/>
+                                </variation>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.49019607840000001" green="0.66666666669999997" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -1045,16 +1045,8 @@
                             <constraint firstItem="rNM-9x-aev" firstAttribute="leading" secondItem="cxU-z9-huX" secondAttribute="trailing" constant="24" id="NMi-7y-1nw"/>
                             <constraint firstItem="8X4-ni-FcK" firstAttribute="trailing" secondItem="7D1-tu-IZe" secondAttribute="trailingMargin" id="NtF-bw-zg2"/>
                             <constraint firstItem="cxU-z9-huX" firstAttribute="top" secondItem="Acq-ko-40D" secondAttribute="top" id="Pa8-Ba-GE9"/>
-                            <constraint firstItem="KtB-Qd-eFp" firstAttribute="leading" secondItem="7D1-tu-IZe" secondAttribute="leading" id="RyH-Pm-PoO"/>
                             <constraint firstItem="rNM-9x-aev" firstAttribute="top" secondItem="cxU-z9-huX" secondAttribute="top" id="a6f-eo-nDy"/>
                             <constraint firstItem="Acq-ko-40D" firstAttribute="leading" secondItem="7D1-tu-IZe" secondAttribute="leadingMargin" id="cIx-hx-QC1"/>
-                            <constraint firstItem="KtB-Qd-eFp" firstAttribute="top" secondItem="cE1-6X-vjU" secondAttribute="bottom" id="dF1-Qe-C5a">
-                                <variation key="heightClass=regular-widthClass=compact" constant="41"/>
-                            </constraint>
-                            <constraint firstAttribute="trailing" secondItem="KtB-Qd-eFp" secondAttribute="trailing" id="fvs-4o-FgG"/>
-                            <constraint firstItem="Acq-ko-40D" firstAttribute="top" secondItem="KtB-Qd-eFp" secondAttribute="bottom" constant="5" id="gEK-1m-urU">
-                                <variation key="heightClass=regular-widthClass=compact" constant="8"/>
-                            </constraint>
                             <constraint firstItem="rNM-9x-aev" firstAttribute="bottom" secondItem="8X4-ni-FcK" secondAttribute="bottom" id="kzI-wA-j2K"/>
                             <constraint firstItem="cxU-z9-huX" firstAttribute="leading" secondItem="Acq-ko-40D" secondAttribute="trailing" constant="8" symbolic="YES" id="nMT-oA-C2f"/>
                             <constraint firstItem="cxU-z9-huX" firstAttribute="bottom" secondItem="Acq-ko-40D" secondAttribute="bottom" id="pI1-Sh-7Z7"/>
@@ -1067,26 +1059,22 @@
                                 <exclude reference="8X4-ni-FcK"/>
                                 <exclude reference="cxU-z9-huX"/>
                                 <exclude reference="Acq-ko-40D"/>
-                                <exclude reference="KtB-Qd-eFp"/>
+                                <exclude reference="Vck-JM-igB"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="RyH-Pm-PoO"/>
-                                <exclude reference="dF1-Qe-C5a"/>
-                                <exclude reference="fvs-4o-FgG"/>
+                                <exclude reference="rSe-tC-SCC"/>
+                                <exclude reference="Khd-aW-hP5"/>
+                                <exclude reference="NtF-bw-zg2"/>
+                                <exclude reference="s7f-EJ-tg0"/>
                                 <exclude reference="6za-CP-jS1"/>
                                 <exclude reference="CYT-M0-063"/>
                                 <exclude reference="cIx-hx-QC1"/>
-                                <exclude reference="gEK-1m-urU"/>
                                 <exclude reference="Pa8-Ba-GE9"/>
                                 <exclude reference="nMT-oA-C2f"/>
                                 <exclude reference="pI1-Sh-7Z7"/>
                                 <exclude reference="NMi-7y-1nw"/>
                                 <exclude reference="a6f-eo-nDy"/>
                                 <exclude reference="kzI-wA-j2K"/>
-                                <exclude reference="Khd-aW-hP5"/>
-                                <exclude reference="NtF-bw-zg2"/>
-                                <exclude reference="s7f-EJ-tg0"/>
-                                <exclude reference="rSe-tC-SCC"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -1095,26 +1083,22 @@
                                 <include reference="8X4-ni-FcK"/>
                                 <include reference="cxU-z9-huX"/>
                                 <include reference="Acq-ko-40D"/>
-                                <include reference="KtB-Qd-eFp"/>
+                                <include reference="Vck-JM-igB"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="RyH-Pm-PoO"/>
-                                <include reference="dF1-Qe-C5a"/>
-                                <include reference="fvs-4o-FgG"/>
+                                <include reference="rSe-tC-SCC"/>
+                                <include reference="Khd-aW-hP5"/>
+                                <include reference="NtF-bw-zg2"/>
+                                <include reference="s7f-EJ-tg0"/>
                                 <include reference="6za-CP-jS1"/>
                                 <include reference="CYT-M0-063"/>
                                 <include reference="cIx-hx-QC1"/>
-                                <include reference="gEK-1m-urU"/>
                                 <include reference="Pa8-Ba-GE9"/>
                                 <include reference="nMT-oA-C2f"/>
                                 <include reference="pI1-Sh-7Z7"/>
                                 <include reference="NMi-7y-1nw"/>
                                 <include reference="a6f-eo-nDy"/>
                                 <include reference="kzI-wA-j2K"/>
-                                <include reference="Khd-aW-hP5"/>
-                                <include reference="NtF-bw-zg2"/>
-                                <include reference="s7f-EJ-tg0"/>
-                                <include reference="rSe-tC-SCC"/>
                             </mask>
                         </variation>
                     </view>
@@ -1126,6 +1110,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="Vck-JM-igB" id="jhB-kg-xyC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kX7-4n-Bqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
